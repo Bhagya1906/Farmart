@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Farmart</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+   <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <style>
+  	.one{
+margin:5px;
+float=left;
+
+}
+
+.one img{
+
+width:100%;
+height:200px;
+}
+	
+.one{
+ margin-top: 7%;
+               
+ width: 23.3%;
+ float: left;
+ padding: 2%;
+ background: white;
+ 
+}
+
+
+
+
+
+
+@media screen and (max-width:100px)
+{
+ .one{
+  width: 50%;
+ }
+ img{
+  height: 60px;
+ }
+ .B1,.B2{
+  width: 100%;
+
+ }
+} 
+
+footer{
+  position: fixed;
+  bottom: 0;
+}
+
+@media (max-height:800px){
+  footer { position: static; }
+  header { padding-top:40px; }
+}
+
+
+.footer-distributed{
+  background-color: #2c292f;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 50px 50px 60px 50px;
+  margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+  width: 30%;
+}
+
+.footer-distributed h3{
+  color:  #ffffff;
+  font: normal 36px 'Cookie', cursive;
+  margin: 0;
+}
+
+/* The company logo */
+
+.footer-distributed .footer-left img{
+  width: 30%;
+}
+
+.footer-distributed h3 span{
+  color:  #e0ac1c;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+  color:  #ffffff;
+  margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a{
+  display:inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+  color:  #8f9296;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+  width: 35%;
+}
+
+
+.footer-distributed .footer-center i{
+  background-color:  #33383b;
+  color: #ffffff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+  display: inline-block;
+  color: #ffffff;
+  vertical-align: middle;
+  margin:0;
+}
+
+.footer-distributed .footer-center p span{
+  display:block;
+  font-weight: normal;
+  font-size:14px;
+  line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+  color:  #e0ac1c;
+  text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+  width: 30%;
+}
+
+.footer-distributed .footer-company-about{
+  line-height: 20px;
+  color:  #92999f;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+  display: block;
+  color:  #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+  margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color:  #33383b;
+  border-radius: 2px;
+
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+/* Here is the code for Responsive Footer */
+/* You can remove below code if you don't want Footer to be responsive */
+
+
+@media (max-width: 880px) {
+
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right{
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .footer-distributed .footer-center i{
+    margin-left: 0;
+  }
+
+}
+  	 </style>
+</head>
+<body>
+
+<nav class="navbar navbar-default">
+	
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <span style="color:red;"><a class="navbar-brand" href="#"><span style="color:red;">Farmart</span></a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="customer.html">Home</a></li>
+      <li><a href="about.html">about</a></li>
+      <li><a href="contact.html">Contact</a></li>
+     
+      <li><a href="clogin.html">Login</a></li>
+      <li><a href="csignup.html">Signup</a></li>
+      <li><a href="fsignup.html">Farmer??</a></li>
+    </ul>
+  </div>
+</nav><br><br><br>
+  <section>
+<div class="container">
+  <div class="container">
+            
+  <img src="https://static8.depositphotos.com/1037238/818/v/950/depositphotos_8181008-stock-illustration-farmer-at-the-farm-with.jpg" alt="Cinque Terre" width="350" height="306"padding-right="300px;"> 
+
+  
+<center style="float:right; padding-right:230px ">
+  <h2>Select your product here..!!</h2><br><br>
+  
+  <button type="button" class="btn btn-primary">Crops</a></button>
+  <button type="button" class="btn btn-success">Vegitables</button>
+  <button type="button" class="btn btn-info">Fruits</button>
+  <button type="button" class="btn btn-warning">Sereals</button><br><br><br>
+  <button type="button" class="btn btn-info">Seeds</button>
+  <button type="button" class="btn btn-primary">Flowers</button>
+  <button type="button" class="btn btn-warning">Plants</button>
+  <button type="button" class="btn btn-success">Pulses</button>
+  <button type="button" class="btn btn-info">Nuts</button><br><br><br>
+  <button type="button" class="btn btn-success">Diary products</button>
+  <button type="button" class="btn btn-info">Grains</button>
+  <button type="button" class="btn btn-primary">Spieces</button>
+  
+</center> 
+</div>  
+</div>
+</section><br><br>
+
+	<section id="fruits" style="background-color: #f2f2f2;">
+		<div class="container">
+      <div class="row">
+        <div class="box">
+         
+         <div class='one'>
+     <img src="https://lh3.googleusercontent.com/proxy/zi3B_RbOymLv1QareBwj05dQHhCmd6-okfBgDrtO81VdCZh76NtUGtVfvMBzo4POKe83JdFGG7MMdadEcw2cEOGT8hsjnsdUv1b4kuA" alt="Cinque Terre" width="350" height="306"padding-right="300px;"> 
+
+<br><br>
+<center><button type="button" class="btn btn-black" ><a href="listfarmers.html">APPLE</a></button><br><br>
+</div>
+
+ <div class='one'>
+     <img src="https://i.pinimg.com/originals/7f/0c/3e/7f0c3e171d6ee7edd3ab4c3ebd75d0f6.jpg" alt="Cinque Terre" width="350" height="600"padding-right="300px;"> 
+
+<br><br>
+<center><button type="button" class="btn btn-black" ><a href="listfarmers.html">ORANGE</a></button><br><br>
+</div>
+
+ <div class='one'>
+     <img src="https://us.123rf.com/450wm/izakowski/izakowski1306/izakowski130600036/20172015-cartoon-illustration-of-funny-blue-or-black-grapes-fruit-food-comic-character.jpg?ver=6" alt="Cinque Terre" width="350" height="306"padding-right="300px;"> 
+
+<br><br>
+<center><button type="button" class="btn btn-black" ><a href="listfarmers.html">GRAPES</a></button><br><br>
+</div>
+
+ <div class='one'>
+     <img src="https://lh3.googleusercontent.com/proxy/vOFC41Oo_q590rjTR7AFqH6-UmP7C2UdMNs63Tg9irrhYOW77zp6IFBKY44SrRGh6bZVnR3_heTcwiffWf880-kvP_dp9WIWRU9SXM4YJim1xU-e_DqiTIacMrc3Usraic0BdJvFFOg" alt="Cinque Terre" width="350" height="306"padding-right="300px;"> 
+
+<br><br>
+<center><button type="button" class="btn btn-black" ><a href="listfarmers.html">MANGO</a></button><br><br>
+</div>
+
+ <div class='one'>
+     <img src="https://st.depositphotos.com/1788799/1745/v/600/depositphotos_17453917-stock-illustration-happy-melon-cartoon.jpg" alt="Cinque Terre" width="350" height="306"padding-right="300px;"> 
+
+<br><br>
+<center><button type="button" class="btn btn-black" ><a href="listfarmers.html">WATERMELON</a></button><br><br>
+</div>
+         
+<div class='one'>
+     <img src="https://previews.123rf.com/images/pixdesign123/pixdesign1231508/pixdesign123150800688/43907082-3d-rendered-illustration-of-pomegranate-cartoon-character.jpg" alt="Cinque Terre" width="350" height="306"padding-right="300px;"> 
+
+<br><br>
+<center><button type="button" class="btn btn-black" ><a href="listfarmers.html">POMAGRANITE</a></button><br><br>
+</div>
+
+<div class='one'>
+     <img src="https://thumbs.dreamstime.com/b/banana-talking-cartoon-illustration-53635418.jpg" alt="Cinque Terre" width="350" height="306"padding-right="300px;"> 
+
+<br><br>
+<center><button type="button" class="btn btn-black" ><a href="listfarmers.html">BANANA</a></button><br><br>
+</div>
+
+<div class='one'>
+     <img src="https://previews.123rf.com/images/pixdesign123/pixdesign1231508/pixdesign123150801194/43994516-3d-rendered-illustration-of-guava-cartoon-character.jpg" width="350" height="306"padding-right="300px;"> 
+
+<br><br>
+<center><button type="button" class="btn btn-black" ><a href="listfarmers.html">GUAVA</a></button><br><br>
+</div>
+
+
+
+</div>
+</div>
+</div><br><br><br>
+</section>
+<br><br>
+
+
+
+
+<section id="crops" style="background-color: #f2f2f2;">
+		<div class="container">
+      <div class="row">
+        <div class="box">
+         
+         <div class='one'>
+     <img src="rice.jpg" alt="Cinque Terre" width="350" height="600"padding-right="300px;"> 
+
+<br><br>
+<center><button type="button" class="btn btn-black" ><a href="listfarmers.html">RICE FLOUR</a></button><br><br>
+</div>
+
+<div class='one'>
+     <img src="maida.jpg" alt="Cinque Terre" width="350" height="600"padding-right="300px;"> 
+
+<br><br>
+<center><button type="button" class="btn btn-black" ><a href="listfarmers.html">MAIDA FLOUR </a></button><br><br>
+</div>
+
+<div class='one'>
+     <img src="wheat.jpg" alt="Cinque Terre" width="350" height="600"padding-right="300px;"> 
+
+<br><br>
+<center><button type="button" class="btn btn-black" ><a href="listfarmers.html">WHEAT </a></button><br><br>
+</div>
+
+<div class='one'>
+     <img src="https://image.shutterstock.com/image-vector/bag-rice-on-white-background-260nw-415671652.jpg" alt="Cinque Terre" width="350" height="600"padding-right="300px;"> 
+
+<br><br>
+<center><button type="button" class="btn btn-black" ><a href="listfarmers.html">RICE </a></button><br><br>
+</div>
+
+
+</div>
+</div>
+</div><br><br><br>
+</section>
+<br><br>
+
+<section id="diary products" style="background-color: #f2f2f2;">
+		<div class="container">
+      <div class="row">
+        <div class="box">
+         
+         <div class='one'>
+     <img src="jasmine.jpg" alt="Cinque Terre" width="350" height="600"padding-right="300px;"> 
+
+<br><br>
+<center><button type="button" class="btn btn-black" ><a href="listfarmers.html">JASMINE</a></button><br><br>
+</div>
+
+<div class='one'>
+     <img src="rose.jpg" alt="Cinque Terre" width="350" height="600"padding-right="300px;"> 
+
+<br><br>
+<center><button type="button" class="btn btn-black" ><a href="listfarmers.html">ROSE</a></button><br><br>
+</div>
+
+<div class='one'>
+     <img src="marigold.jpg" alt="Cinque Terre" width="350" height="600"padding-right="300px;"> 
+
+<br><br>
+<center><button type="button" class="btn btn-black" ><a href="listfarmers.html">MARIGOLD</a></button><br><br>
+</div>
+
+<div class='one'>
+     <img src="sunflower.jpg" alt="Cinque Terre" width="350" height="600"padding-right="300px;"> 
+
+<br><br>
+<center><button type="button" class="btn btn-black" ><a href="listfarmers.html">SUNFLOWER</a></button><br><br>
+</div>
+
+
+</div>
+</div>
+</div><br><br><br>
+</section>
+<br><br>
+
+<section id="vegetables" style="background-color: #f2f2f2;">
+		<div class="container">
+      <div class="row">
+        <div class="box">
+         
+         <div class='one'>
+     <img src="https://thumbs.dreamstime.com/b/cartoon-cabbage-character-iceberg-lettuce-happy-vegetable-symbol-eco-food-icon-design-element-kids-coloring-book-colouring-114661997.jpg" alt="Cinque Terre" width="350" height="600"padding-right="300px;"> 
+
+<br><br>
+<center><button type="button" class="btn btn-black" ><a href="listfarmers.html">CABBAGE</a></button><br><br>
+</div>
+
+ <div class='one'>
+     <img src="data:image/jpeg;base64,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" alt="Cinque Terre" width="350" height="600"padding-right="300px;"> 
+
+<br><br>
+<center><button type="button" class="btn btn-black" ><a href="listfarmers.html">BRINJAL</a></button><br><br>
+</div>
+
+ <div class='one'>
+     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCwzUffuyQ8NzIQCoJ8HAUft3PlV4CTxFNItBJOW2jcAvHjTzGgNWnUKEvWlXSkFezDOY&usqp=CAU" alt="Cinque Terr" alt="Cinque Terre" width="350" height="600"padding-right="300px;"> 
+
+<br><br>
+<center><button type="button" class="btn btn-black" ><a href="listfarmers.html">CARROT</a></button><br><br>
+</div>
+
+ <div class='one'>
+     <img src="https://static4.depositphotos.com/1001911/341/v/950/depositphotos_3419155-stock-illustration-potato.jpg" alt="Cinque Terre" width="350" height="600"padding-right="300px;"> 
+
+<br><br>
+<center><button type="button" class="btn btn-black" ><a href="listfarmers.html">POTATO</a></button><br><br>
+</div>
+
+ <div class='one'>
+     <img src="https://thumbs.dreamstime.com/b/cartoon-onion-hand-drawn-vector-illustration-59958615.jpg" alt="Cinque Terre" width="350" height="600"padding-right="300px;"> 
+
+<br><br>
+<center><button type="button" class="btn btn-black" ><a href="listfarmers.html">ONION</a></button><br><br>
+</div>
+
+ <div class='one'>
+     <img src="https://t3.ftcdn.net/jpg/02/69/44/84/360_F_269448491_XnonMuUOcLASKpVTn73y8Yq6DNJJJlIh.jpg" alt="Cinque Terre" width="350" height="600"padding-right="300px;"> 
+
+<br><br>
+<center><button type="button" class="btn btn-black" ><a href="listfarmers.html">TOMATO</a></button><br><br>
+</div>
+
+ <div class='one'>
+     <img src="https://us.123rf.com/450wm/dazdraperma/dazdraperma1102/dazdraperma110200020/8834323-illustration-of-a-pumpkin-character-giving-thumbs-up.jpg?ver=6" alt="Cinque Terre" width="350" height="600"padding-right="300px;"> 
+
+<br><br>
+<center><button type="button" class="btn btn-black" ><a href="listfarmers.html">PUMBKIN</a></button><br><br>
+</div>
+
+ <div class='one'>
+     <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEhITEBEWEBMWFhUXFhUSEQ8QEhQVFREXFhUTFRgYHSghGBomGxUTITEnMSkuLi4uFx8zODMuNygtLi0BCgoKDg0OGxAQGzclHyUyLS0tLS0uLS0tLSstLS0tLS0tLS0tLS01LS0tLS0wMi0tLS8tLS0tLS0tLS0vLS0tLf/AABEIANoA5wMBIgACEQEDEQH/xAAcAAEAAgMBAQEAAAAAAAAAAAAABAcDBQYCAQj/xABCEAACAQIDBQQHBQYEBwEAAAABAgADEQQSIQUGMUFhE1FxgQciMpGhscEjQnKSshRSYoLR8CRjc+EzNENEosLSFf/EABoBAQACAwEAAAAAAAAAAAAAAAABBQIDBAb/xAAwEQACAQIDBAkEAwEAAAAAAAAAAQIDEQQhMRJBUbEFYXGBkaHB0fATIjLhFELxI//aAAwDAQACEQMRAD8AuqIiAIiIAiIgCIiAIiIAiIgCJr9u7YpYSi1asTlGgA1ZmN7KOuh9xlZ1fTMy1NcGGpXsQKp7S3eCVsT0sPGYSqRi7N5gtyJD2TtCniaNKvRJNOqodSRY2I4EciOB8JMmYEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREApD0r7xYxcVWw1TKMMOyenTyJ6yjK3ah/azEionG1ri3OcJtWhlZgNRxB7wVuD7iD5y0fTtgh/hK44/aUm6jR0932nvlaY0Xo4du+ko/KSnyAldXbVZdeXldcmD7sHbuKwpYYbEVKKsSHVW9U2GYEA3AOnEWPK9pbvor3yxONerQxVqhpoHWsFCMRmC5KgGhOtwQBwOnOUehs3u/+T85bnoFUf44/e+wHlesRN1KUttK+QLaiInWBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQCovTvtJb4TDggsM9Z9dVGiU7+Nqnuld42ww+FXn2Wbyc3E+720cYcdWp4wFsUz62FlcH2DT/AMvKBbuAseBm5p7NdUp9pWb1EVclIhFJAsNeJ5d3DlKnGVNmpFvry8vU11KsKf5M4/G0yp1BU6ixBBHPnOx9GO9CYHFFqxy0K6hKjWuKbA3p1D/CCWB6NflM+AwaAFlvm1F2epUsDqbZybXmox+wgCSnqE8rfYnwH3f70mFPGraV1a3z5qaFjabdnkuJ+lKbhgGUhlIBBUggg6ggjiJ6lL+iPFY+liVw11bCMHZlaoGVLKT9iCcwYta62ta5tzl0S2p1IzjtROpSUldO4iImZIiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCImPEVciM54KrN+UX+kAq30gbSWtjVRVX7AFM1hmOexqC/GwsBbvBnO48+qPH6TxhnL1GdtSczE9WOvzM948aDx+k8vVqupU23vKGc3OTk95HwtfKdeB+HWTyAw7wZqpkqbRp4ekXqtYAmwFizG3sqOZmLg28tTGKbdke1qNScFGKspBBGh01Blwbn7wjGUtdKqWDjv7mHQ/O8/OP/AOk+MqMzApTGiqGPLv7zOs3K2u2ErrUUsyjRlLXvTOhUX8iOoEsaO1hpXk+1fOHIsKdOWHW23lvXr3cr5n6BieKNVXVWU5lYAqRwIIuCPKe5clgIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAkXawvQrf6b/oMlTDjhelUHej/pMhrIh6FE7PHHy+skYlbqffIK46jRH2tVadwLBmAJ8BxMkYTaVGsG7KqtQgagHUDvsdbTymzK21bL5v0KCMXs3tkQsVVWmjO+iqLn+g6yvcdjamJqAtzNlXXKgvy+pne7xYB61BkpkBrg6mwNje1+X+01no33bes1SsQtkIQZ6dOstyLt6rAqbAr75b9Gxg05L8uS/ZYYGEbOW/kQdn0wtlHACbbZx9cdQf6/SW/t/cPAnD5gq03AFq9OnRokFiAGdKSqjrci4te17G8qdMI9HEmlVGV0dkYdQCDbvHceYkYqlKCbZ1V1eEuxlvejXauei1Bj61LUdUY8PI/MTspTW7GP8A2fE0ql7LfK/4W0Pu4+UuUzpwFb6lKz1WXdu9u414OptU7Pdl7CIidp1CIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCRtpoWo1gvE03AtxuUIFpJn0Ra+QtfI/IWL2GzV2p0nas19Sw1J53N5vtg7g7TFek1JFUnN62dMo9Qmz35G1ufGdXuDswHH4vMODuR4OVYfA/GYPSxtOomKNPJnoUGoKaXaBM/aIKjEDiWNytwDlsOF9dODX1qKc3lbPLu0Vt5oUvsjvvZeXzca3amH2iXbCHBPTrEWbLqpU6XDeyFPfm+M6zae012Fg8Ph0CVMQV7So7BmQFmsSFBBa7AqvcE1nrdjaodlqZWp0w9SjRV6jVWRMiVVpZ21bLZ/C9pO9IO6748LVw+Rm7PsqiOaYJQPnVkZxZWBJ1uDbnxE3YfC06E3FLjre17ZXIikqf/NWvw8zbbvbU/bEqU6j0alSmtNy+FcvQdaqki1+Dgggjw8ByO/uGC7RosONWjSdurgPSJ91NZvtw9jJs+jU7Sohq1MoKoWdaaJfKubm12JPlOe39xYbHYbXRaVIHpmq1H1/ldZzY+VOVOSptO1tGnnv0Jd3Td+D/XkRssuHdvGdthqLk3OXK34kOUn4X85UYIOqkMO8EEfCWB6OMTelWpn7rAjwdbfND75VdGT2azjxXLPlc4sHJxqW4o6+IiXxaCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCCbAnuESNtSrko1m7qbHzym0N2zF7ZlQbPxX7PilqgaOCjfiFmU+4MJsN4P2fHVEapRdKgAXPTqAMy30DAqQeJ69Z4xRw7YbsjSYV81+1DkWs9xYd4FuXK/Sa+icQhF6aVLcHzsgPcStiR5TzMMZiKMIxpVLWW6189zclr1X8SsU24qN1b5xG8b5UoUMLTydmS4UEsTlQksSdSTm18ZnobSarTUhyVtwvY35g9Z8pYcgtUqHNUYWuBZVF75V+p5/CR2wYzFkY02PHLbK3VlOl+vGYVsTVrR2akr8evtt86ialS62TaUq+Wk5Y2C31PIWnNbOwArVGrVVJRj6qniV5E36AWmzaiSAKjF1BvlIAS/eQOPneSMUg7Gs7C4CFV1cfa1AVpBQpF2zWPPRGPKaqEPu2U83v4LX/eq5EZXtGOuhsNsDBjKMHSy3Wz5s2hupUjX2tGB5WOknbgV8uJK8nRh5rZh8A05LZlOqqEVbkgkAkgkiw+t5vN26uTFYdv48v5xk/9p0UqtsTGVlqtFZcOVzFStVT69xa0QYnpi1EREAREQBERAEREAREQBERAEREAREQBERAE0m+OIyYZhzdlUfmzH4KZu5xG/eMzVEpA6ILn8T8B5AD805MdU2KEnxy8f0aq8tmDOT2aAlarUrLnpsmRSql6tEGxNVFPHUEEDUrex5HYPhzlzqRVp8qiHMvgT91v4TYjukOieM+YigSGak7UapFhUps1N9OALLYkdJ576kZJRnu0a3dq3rwfWcKkmkpGZgCJ4oYZ3NqaM57lVm+Ux7vb44bsWXaO0a+DxVFslReyw9TtNbLVp3oO2otcX015WM2dbe3YPHEbRrYz+Coca9M+NKmi0/essY9FN2bnl1L1uzd/FvqzBQ2eS+QnM440qAGIrdAyqctLxdlEib6YR6LbPSqwptUrErh0YOERF9arVew7SqSUFxZVFwt9SfG0/TJRRew2PgtRoC6JRpL1Wmh18ys4DYuOxWK2mtTG1GqVQrElraKBoFC6KtzwAAuTOl4WjQpTtrZ66/O7xOhYX6dJ1FF20vZ2vwvpcsBp5pVMjK37rK3uIP0npphfgZQN2zKl6F0GJhwVTNTpt3oh96gzNPY3vmXdxERAEREAREQBERAEREAREQBERAEREAREQDDjMQtJGqPoqgk/0HU8POVXjMS1RndvaYknzPDwHCdJvztS7DDodFs1Tq33V8hr5junJM8oOkq+3U2FpHn+tO25X4mpeWytFzMmHF2A/vhPbm1vGZsOuRcx4nh0Ej8TKtO5ptZfO453frdQ4mn+04cXrUR9soGr0uVYDmV4N/DlPIzkk2XSVCuTMWHtNcHTr92XNu/XC1AwTtKi3ZaYYo1RStjkt7TLYkrbUN0M122N28HXYNRFbDVWualOjQ7airX4ZGtY+Bt0l1SqSdGMXKz3a5rt4rNd18kz0XQ3SGGw1/5EL3WT1tueTyz32d1vTucdu5glwK0a9bDpiUfNlpmqozOCBmdbElAc2hGtu6bbZmGaq9bHVlCtiDkoqqlR2aEZ3UclzZVH4DPY2FhaNQJWZ8U979kwp0QOtVVYsB0LJfrNnia5c3a3AABQFVVUWVFUaKoGgE04qtsxcHq/l/bUy6Z6Wo1qao0I2Wl2msk8opXaS4v+zzyWuJzMLSVSpZg3QXHj/d5DJlYeWlkrlu7Ea+HoH/LT9Ik2QN3/APlqH+mvyEnz2EPxXYi5j+KEREyMhERAEREAREQBERAEREAREQBERAEhbX2gMPReqdco9UfvMdFX3/WTZX/pC2nmqrQU+rTGZvxMNB5L+oznxVb6NJy37u01V6n04NnM1KxYlmN2YkknmSbkzzmmAvPVIFjZRc/3xnlynvfI2+KPqpbu+gkanrYd8y4pgAiXuVGvunjCn1h019wvNayj4nRLOduww4/Kxy2BVTz7wfa8bzBUqMwytWrMv7rYjEMnhlL2mLtJ8LzdCU4K0W1xs7XNSqyWjt2EjZtFVZVVQovwAAHCSKwsSBwBMx4X1fWPEj1R48/6T5xIA4ma99yb/b1kxGyUi3NtB8h9TNUWmXG4nMQB7K6Dr1kUNx8ISybZjUlfJbvnMuXYa2w1Af5afpEnTDg6eWnTX91FHuUCZp7FKysXS0EREkkREQBERAEREAREQBERAEREAREQDzVqBVZm0Cgk+AFzKU2hizUd6je07Enpre3lwlr711cuDxB/hC/ncL9ZTGIqesemkp+lJXlGHa/T3K3HSzS+cCfglBJZtVUXI4XJNgP77pKONYiwsi9wFpC2c3qVfGn9Z9vKdrN3OXaairb/AHaM6m+g1jE1woKA3Y6MRwA7h17/AHTDXrFEFtGYkX7lAF7dTf4dZADyVG5G1b5oSA02C4cU7F9X5LxC9W7z0kbYwzVk6XPuBt8bTJVqXJPeTIlrYlWUdo9M5JudTPV7K7fugAeJNvleYM0zf9Gt0KH/AMrSGIvPx5MgXmw2Vhs9WknHM6qfAsL/AAvNSH1E7LcPB58UG5U1ZvNhlUfEnynRSp7dSMeL8t/kRThtyUSyzERPUl6IiIAiIgCIiAIiIAiIgCIiAIiIAiIgGo3tpZsHXA5KG/LUDH4CUrUpkuQO8y/q1IOrK2qsCp8CLGUpj8G1Cu9N+IJW/eRwPmLGU/ScbSjPqt88ytx0c1LuPFFcq5etye88vID5meA1zpPtf2TPtFdPGVPWcVzzj2+zA5htPAqb/pWR8FhGqE2IVR7THgL8PE9J7x7aAeclUNKSL33J8SSB8APfJvaOROru9xlTJSB7O5JFi7aadyjlI+e/ATG75tF4d/KeXxQXQC9vKQkyHK5nAnzHV8qdmPaaxboo1UeJOvhbvkRsa3IW+MwohY95OpJ18SZkocRe2hmwaXNzwHzls7ibN7LD52FmqkN1CKPUHxJ/mnIbo7A/aKguLUUIzn948co6nn3DxEtLw0lr0dQu3Va6l6v08TuwVH+77vU+xES3LEREQBERAEREAREQBERAEREAREQBERAE5Dfrds1x21EXqKLMo4sBwZf4h8R4Tr4murSjVg4yMKlONSOzIoumW1DjUe4/7zzQNkueplu7Z3aw+JuzLkqfvrox/EODfPrOUx24dcX7N0rL3H7Nvcbj4yjq4CtB/arrq9teZWTwlSLyz7Pb/Sv6jljfv/u0ngeoAxtoAfC3Cbl91sUn/bN/Lkf9JMxPu/iW0OHqn+SoPpOd06mmy/Bmj6c+D8GaSrigBZNOv9JhSkx4CdPht0sUfZwzDq5Rf1GbnB7h1m/4tRaY7l+0b6D4zOGHqy/GD71bmZRoVJaJ8uZwqYM/eNvDWdZu3uhUrWZwaNHjmI9d/AH5nTuvO12VuvhqFiE7Rx959bHoOA915u5YUejc71XfqXq/bxOulgrZz8P2YcHhEpItOmoRF4AfM956zNES0SsWAiIkgREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQD/2Q==" alt="Cinque Terre" width="350" height="600"padding-right="300px;"> 
+
+<br><br>
+<center><button type="button" class="btn btn-black" ><a href="listfarmers.html">BOTTLEGUARD/a></button><br><br>
+</div>
+
+</div>
+</div>
+</div><br><br><br>
+</section>
+<br><br>
+
+<section id="diary products" style="background-color: #f2f2f2;">
+		<div class="container">
+      <div class="row">
+        <div class="box">
+         
+         <div class='one'>
+     <img src="milk.jpg" alt="Cinque Terre" width="350" height="600"padding-right="300px;"> 
+
+<br><br>
+<center><button type="button" class="btn btn-black" ><a href="listfarmers.html">MILK</a></button><br><br>
+</div>
+
+<div class='one'>
+     <img src="ghee.jpg" alt="Cinque Terre" width="350" height="600"padding-right="300px;"> 
+
+<br><br>
+<center><button type="button" class="btn btn-black" ><a href="listfarmers.html">GHEE</a></button><br><br>
+</div>
+
+<div class='one'>
+     <img src="butter.jpg" alt="Cinque Terre" width="350" height="600"padding-right="300px;"> 
+
+<br><br>
+<center><button type="button" class="btn btn-black" ><a href="listfarmers.html">BUTTER</a></button><br><br>
+</div>
+
+<div class='one'>
+     <img src="curd.jpg" alt="Cinque Terre" width="350" height="600"padding-right="300px;"> 
+
+<br><br>
+<center><button type="button" class="btn btn-black" ><a href="listfarmers.html">CURD</a></button><br><br>
+</div>
+
+
+</div>
+</div>
+</div><br><br><br>
+</section>
+<br><br>
+
+
+<!--footer-->
+ <footer class="footer-distributed">
+
+            <div class="footer-left">
+         
+                <h3>About<span>Farmart</span></h3>
+
+                <p class="footer-links">
+                    <a href="customers.html">Home</a>
+                    |
+                    <a href="about.html">About</a>
+                    |
+                    <a href="contact.html">Contact</a>
+                    |
+                    
+                </p>
+
+                <p class="footer-company-name">© 2021 Farmart solutions for farmers</p>
+            </div>
+
+            <div class="footer-center">
+                <div>
+                    <i class="fa fa-map-marker"></i>
+                      <p><b>
+                        Any Time Any Where</b></p>
+                </div>
+
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <p>+91 8610746192</p>
+                </div>
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <p><a href="mailto:support@farmart.com">support@farmart.com</a></p>
+                </div>
+            </div>
+            <div class="footer-right">
+                <p class="footer-company-about">
+                    <span>About the Farmart</span>
+                     Emarketing Facilities to build a strong Farming through our services.</p>
+                <div class="footer-icons">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-youtube"></i></a>
+                </div>
+            </div>
+        </footer>
+
+
+</body>
+</html>
